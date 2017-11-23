@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1847F3061FC6CDE90047DB4D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847F3051FC6CDE90047DB4D /* Model.swift */; };
+		1847F30E1FC6D2600047DB4D /* CKTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847F30D1FC6D2600047DB4D /* CKTableView.swift */; };
+		1847F3101FC6D30E0047DB4D /* CKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847F30F1FC6D30E0047DB4D /* CKCell.swift */; };
+		1847F3131FC6E48D0047DB4D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847F3121FC6E48D0047DB4D /* UIView+Extension.swift */; };
+		1847F3151FC6F8080047DB4D /* ValueLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847F3141FC6F8080047DB4D /* ValueLabel.swift */; };
+		1847F3171FC709630047DB4D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847F3161FC709630047DB4D /* NetworkService.swift */; };
+		1847F31B1FC70AA90047DB4D /* ErrorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847F31A1FC70AA90047DB4D /* ErrorService.swift */; };
 		1874BC3E1FC5EF9E00E5A14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BC3D1FC5EF9E00E5A14B /* AppDelegate.swift */; };
 		1874BC401FC5EF9E00E5A14B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874BC3F1FC5EF9E00E5A14B /* ViewController.swift */; };
-		1874BC431FC5EF9E00E5A14B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874BC411FC5EF9E00E5A14B /* Main.storyboard */; };
 		1874BC451FC5EF9E00E5A14B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1874BC441FC5EF9E00E5A14B /* Assets.xcassets */; };
 		1874BC481FC5EF9E00E5A14B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874BC461FC5EF9E00E5A14B /* LaunchScreen.storyboard */; };
+		7A89AA6D49500294EEBE4E74 /* Pods_FiverGig_Adamrichard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86165500D6DA16187ECFA6F /* Pods_FiverGig_Adamrichard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1847F3051FC6CDE90047DB4D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1847F30D1FC6D2600047DB4D /* CKTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTableView.swift; sourceTree = "<group>"; };
+		1847F30F1FC6D30E0047DB4D /* CKCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKCell.swift; sourceTree = "<group>"; };
+		1847F3121FC6E48D0047DB4D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1847F3141FC6F8080047DB4D /* ValueLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueLabel.swift; sourceTree = "<group>"; };
+		1847F3161FC709630047DB4D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1847F31A1FC70AA90047DB4D /* ErrorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorService.swift; sourceTree = "<group>"; };
 		1874BC3A1FC5EF9E00E5A14B /* FiverGig-Adamrichard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FiverGig-Adamrichard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1874BC3D1FC5EF9E00E5A14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1874BC3F1FC5EF9E00E5A14B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1874BC421FC5EF9E00E5A14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1874BC441FC5EF9E00E5A14B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1874BC471FC5EF9E00E5A14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1874BC491FC5EF9E00E5A14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD279FE1B8D1351B037DF79 /* Pods-FiverGig-Adamrichard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiverGig-Adamrichard.release.xcconfig"; path = "Pods/Target Support Files/Pods-FiverGig-Adamrichard/Pods-FiverGig-Adamrichard.release.xcconfig"; sourceTree = "<group>"; };
+		6723D3AA37D256E1F6337423 /* Pods-FiverGig-Adamrichard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiverGig-Adamrichard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FiverGig-Adamrichard/Pods-FiverGig-Adamrichard.debug.xcconfig"; sourceTree = "<group>"; };
+		C86165500D6DA16187ECFA6F /* Pods_FiverGig_Adamrichard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiverGig_Adamrichard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A89AA6D49500294EEBE4E74 /* Pods_FiverGig_Adamrichard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1847F3071FC6CEB70047DB4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1847F3051FC6CDE90047DB4D /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1847F3081FC6CEC10047DB4D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1874BC3F1FC5EF9E00E5A14B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1847F30B1FC6CEE10047DB4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1847F30D1FC6D2600047DB4D /* CKTableView.swift */,
+				1847F30F1FC6D30E0047DB4D /* CKCell.swift */,
+				1847F3141FC6F8080047DB4D /* ValueLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1847F30C1FC6CEFA0047DB4D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1874BC3D1FC5EF9E00E5A14B /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1847F3111FC6E47C0047DB4D /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1847F3121FC6E48D0047DB4D /* UIView+Extension.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		1847F31C1FC70AB10047DB4D /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				1847F31A1FC70AA90047DB4D /* ErrorService.swift */,
+				1847F3161FC709630047DB4D /* NetworkService.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
 		1874BC311FC5EF9D00E5A14B = {
 			isa = PBXGroup;
 			children = (
 				1874BC3C1FC5EF9E00E5A14B /* FiverGig-Adamrichard */,
 				1874BC3B1FC5EF9E00E5A14B /* Products */,
+				7DFFFF1BF7816F5AED5CE4B9 /* Pods */,
+				EBB85DB6B68419D285E057DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +124,34 @@
 		1874BC3C1FC5EF9E00E5A14B /* FiverGig-Adamrichard */ = {
 			isa = PBXGroup;
 			children = (
-				1874BC3D1FC5EF9E00E5A14B /* AppDelegate.swift */,
-				1874BC3F1FC5EF9E00E5A14B /* ViewController.swift */,
-				1874BC411FC5EF9E00E5A14B /* Main.storyboard */,
+				1847F31C1FC70AB10047DB4D /* Network Services */,
+				1847F3111FC6E47C0047DB4D /* HelperFiles */,
+				1847F30C1FC6CEFA0047DB4D /* SupportingFiles */,
+				1847F30B1FC6CEE10047DB4D /* Views */,
+				1847F3081FC6CEC10047DB4D /* Controllers */,
+				1847F3071FC6CEB70047DB4D /* Model */,
 				1874BC441FC5EF9E00E5A14B /* Assets.xcassets */,
-				1874BC461FC5EF9E00E5A14B /* LaunchScreen.storyboard */,
 				1874BC491FC5EF9E00E5A14B /* Info.plist */,
+				1874BC461FC5EF9E00E5A14B /* LaunchScreen.storyboard */,
 			);
 			path = "FiverGig-Adamrichard";
+			sourceTree = "<group>";
+		};
+		7DFFFF1BF7816F5AED5CE4B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6723D3AA37D256E1F6337423 /* Pods-FiverGig-Adamrichard.debug.xcconfig */,
+				4AD279FE1B8D1351B037DF79 /* Pods-FiverGig-Adamrichard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBB85DB6B68419D285E057DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C86165500D6DA16187ECFA6F /* Pods_FiverGig_Adamrichard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1874BC4C1FC5EF9E00E5A14B /* Build configuration list for PBXNativeTarget "FiverGig-Adamrichard" */;
 			buildPhases = (
+				35B14C1E90008F12A5E91A8A /* [CP] Check Pods Manifest.lock */,
 				1874BC361FC5EF9E00E5A14B /* Sources */,
 				1874BC371FC5EF9E00E5A14B /* Frameworks */,
 				1874BC381FC5EF9E00E5A14B /* Resources */,
+				D5835FA4E08B56B0C0B8119D /* [CP] Embed Pods Frameworks */,
+				64445C41D051F67ABB06890D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +218,82 @@
 			files = (
 				1874BC481FC5EF9E00E5A14B /* LaunchScreen.storyboard in Resources */,
 				1874BC451FC5EF9E00E5A14B /* Assets.xcassets in Resources */,
-				1874BC431FC5EF9E00E5A14B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B14C1E90008F12A5E91A8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FiverGig-Adamrichard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64445C41D051F67ABB06890D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiverGig-Adamrichard/Pods-FiverGig-Adamrichard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5835FA4E08B56B0C0B8119D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FiverGig-Adamrichard/Pods-FiverGig-Adamrichard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiverGig-Adamrichard/Pods-FiverGig-Adamrichard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1874BC361FC5EF9E00E5A14B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1847F3131FC6E48D0047DB4D /* UIView+Extension.swift in Sources */,
+				1847F3061FC6CDE90047DB4D /* Model.swift in Sources */,
+				1847F3171FC709630047DB4D /* NetworkService.swift in Sources */,
+				1847F3101FC6D30E0047DB4D /* CKCell.swift in Sources */,
+				1847F30E1FC6D2600047DB4D /* CKTableView.swift in Sources */,
 				1874BC401FC5EF9E00E5A14B /* ViewController.swift in Sources */,
+				1847F31B1FC70AA90047DB4D /* ErrorService.swift in Sources */,
+				1847F3151FC6F8080047DB4D /* ValueLabel.swift in Sources */,
 				1874BC3E1FC5EF9E00E5A14B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +301,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1874BC411FC5EF9E00E5A14B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1874BC421FC5EF9E00E5A14B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1874BC461FC5EF9E00E5A14B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,11 +421,13 @@
 		};
 		1874BC4D1FC5EF9E00E5A14B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6723D3AA37D256E1F6337423 /* Pods-FiverGig-Adamrichard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BTSZ26LN83;
 				INFOPLIST_FILE = "FiverGig-Adamrichard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cbk.FiverGig-Adamrichard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +438,13 @@
 		};
 		1874BC4E1FC5EF9E00E5A14B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD279FE1B8D1351B037DF79 /* Pods-FiverGig-Adamrichard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BTSZ26LN83;
 				INFOPLIST_FILE = "FiverGig-Adamrichard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cbk.FiverGig-Adamrichard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
